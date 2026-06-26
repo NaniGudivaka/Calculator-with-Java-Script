@@ -10,7 +10,7 @@ body{
 
 #display{
     width: 100%;
-    padding: 20px;
+    padding: 16px;
     font-size: 5rem;
     text-align: left;
     border: none;
@@ -28,7 +28,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 25px;
+    padding: 20px;
 }
 
 button{
@@ -50,11 +50,11 @@ button:active{
     background-color: rgb(107, 92, 92);
 }
 .operator{
-    background-color: orange;
+    background-color: rgb(92, 167, 202);
 }
 .operator:hover{
-    background-color: rgb(185, 139, 55);
+    background-color: rgb(14, 82, 128);
 }
 .operator:active{
-    background-color: rgb(200, 159, 83);
+    background-color: rgb(13, 61, 84);
 }
